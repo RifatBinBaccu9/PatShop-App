@@ -14,12 +14,12 @@ const Navbar = () => {
         
         <div className="flex items-center">
             <ul className="flex gap-x-3 text-lg fontLora font-medium">
-                <li className="flex gap-x-2 text-[#FF6F3F]"><a href="#" className=" hover:text-green-400 hover:font-extrabold">Home</a><FaChevronDown className="mt-1.5"/></li>
+                <li><a href="#" className="flex gap-x-2 text-[#FF6F3F] hover:text-green-400 hover:font-extrabold"><span>Home</span><FaChevronDown className="mt-1.5"/></a></li>
                 <li><a href="#" className=" hover:text-green-400 hover:font-extrabold">Pets</a></li>
                 <li><a href="#" className=" hover:text-green-400 hover:font-extrabold">Service</a></li>
                 <li><a href="#" className=" hover:text-green-400 hover:font-extrabold">Shop</a></li>
                 <li><a href="#" className=" hover:text-green-400 hover:font-extrabold">Experts</a></li>
-                <li className="flex gap-x-2"><a href="#" className=" hover:text-green-400 hover:font-extrabold">More</a><FaChevronDown className="mt-1.5" /></li>
+                <li><a href="#" className="flex gap-x-2 hover:text-green-400 hover:font-extrabold"><span>More</span><FaChevronDown className="mt-1.5" /></a></li>
             </ul>
         </div>
 
