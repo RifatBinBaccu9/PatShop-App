@@ -19,3 +19,27 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.fontLaila{
+  font-family: "Laila", serif;
+}
+
+.fontLora{
+  font-family: "Lora", serif;
+}
+
+.fontNoto{
+  font-family: "Noto Sans", serif;
+}
+
+.btnStyle{
+  color: #ffffff;
+  background: #FF6F3F;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: "Lora", serif;
+}
