@@ -7,8 +7,9 @@ import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="w-11/12 sm:w-10/12 mx-auto flex justify-between my-5">
-       <div className="flex items-center gap-x-3">
+    <div className="bg-[#FFE6E4]">
+     <div className="w-11/12 sm:w-10/12 mx-auto flex justify-between py-3">
+     <div className="flex items-center gap-x-3">
         <Image src={"/cat-leg.png"} alt="cat-leg" width={26} height={26} className=""/>
         <h1 className="text-2xl fontLaila text-[#FF6F3F]">PetStick</h1>
        </div>
@@ -37,6 +38,7 @@ const Navbar = () => {
         <div className="flex items-center text-3xl lg:hidden">
            <IoMenu />
         </div>
+     </div>
     </div>
     
   )
