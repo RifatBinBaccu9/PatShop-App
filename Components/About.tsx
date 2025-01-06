@@ -2,7 +2,8 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className='w-10/12 mx-auto text-center my-20  '>
+    <div className=' relative  text-center my-20  '>
+     <div  className='w-10/12 mx-auto'>
      <div>
       <h1 className=' text-3xl sm:text-5xl font-bold fontLaila '>Features Categories</h1>
       <p className=' text-lg font-medium fontLora w-11/12 sm:w-10/12 md:w-9/12 lg:w-[45%] my-4 mx-auto'>At petstick, access pet listings, shop easily, and book grooming,
@@ -70,6 +71,9 @@ const About = () => {
 
       </div>
      </div>
+     </div>
+
+     <Image src={'/Isolation_Mode.png'} alt='Isolation_Mode' width={120} height={120} className=' absolute -top-7 right-0'/>
     </div>
   )
 }
