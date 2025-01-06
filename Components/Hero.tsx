@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
       <div className=' relative'>
-      <img src="/bg.png" alt="" className="w-full h-[400px] md:h-[550px] lg:h-full"/>
+      <img src="/bg.png" alt="" className="w-full h-[500px] sm:h-[400px] md:h-[550px] lg:h-full"/>
       
       <div className="md:flex md:justify-between md:items-end absolute top-7 left-9  md:top-[35%] md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 w-11/12 md:w-10/12 mx-auto">
 
