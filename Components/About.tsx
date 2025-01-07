@@ -6,7 +6,7 @@ const About = () => {
      <div  className='w-10/12 mx-auto'>
      <div>
       <h1 className=' text-3xl sm:text-5xl font-bold fontLaila '>Features Categories</h1>
-      <p className=' text-lg font-medium fontLora w-11/12 sm:w-10/12 md:w-9/12 lg:w-[45%] my-4 mx-auto'>At petstick, access pet listings, shop easily, and book grooming,
+      <p className=' text-lg font-medium fontLora w-11/12 sm:w-10/12 md:w-9/12 lg:w-[55%] my-4 mx-auto'>At petstick, access pet listings, shop easily, and book grooming,
       vet visits, and training all through personalized profiles.</p>
      </div>
 
