@@ -11,7 +11,7 @@ const Reservation = () => {
         <div className="absolute bg-black opacity-50 inset-0 rounded-xl"></div>
 
         <div className="absolute top-0 flex flex-col-reverse md:flex-row gap-5 p-5">
-          <div className=" w-[98%] sm:w-11/12 justify-center  mx-auto md:justify-start  md:w-[45%] flex items-center md:mt-16 lg:mt-[140px]">
+          <div className=" w-[98%] sm:w-11/12 justify-center  mx-auto md:justify-start md:w-[55%] lg:w-[45%] flex items-center md:mt-16 lg:mt-[140px]">
             <div className="bg-white rounded-md p-4 py-8 w-full sm:w-11/12 md:w-auto">
               <h1 className="text-3xl font-bold font-laila text-center">
                 Online reservation
@@ -22,7 +22,7 @@ const Reservation = () => {
                 <div>
                   <div className="flex text-lg font-medium font-lora gap-2 my-2">
                     <span>
-                      {/* <img src="./image/Frame (1).png" alt="" /> */}
+                      <img src="/Frame.png" alt="" />
                     </span>
                     <span>Pate Type</span>
                   </div>
@@ -38,7 +38,7 @@ const Reservation = () => {
                 <div>
                   <div className="flex text-lg font-medium font-lora gap-2 my-2">
                     <span>
-                      {/* <img src="./image/Capa_1.png" alt="" /> */}
+                      <img src="/Capa_1.png" alt="" />
                     </span>
                     <span>Pate Type</span>
                   </div>
@@ -54,7 +54,7 @@ const Reservation = () => {
                 <div>
                   <div className="flex text-lg font-medium font-lora gap-2 my-2">
                     <span>
-                      {/* <img src="./image/Frame (2).png" alt="" /> */}
+                      <img src="/Frame1.png" alt="" />
                     </span>
                     <span>Check In</span>
                   </div>
@@ -70,7 +70,7 @@ const Reservation = () => {
                 <div>
                   <div className="flex text-lg font-medium font-lora gap-2 my-2">
                     <span>
-                      {/* <img src="./image/Frame (2).png" alt="" /> */}
+                    <img src="/Frame1.png" alt="" />
                     </span>
                     <span>Check Out</span>
                   </div>
@@ -92,7 +92,7 @@ const Reservation = () => {
             </div>
           </div>
 
-          <div className="text-white text-center  md:text-start w-11/12 mx-auto md:w-[55%] mt-10 md:mt-32 lg:mt-[267px]">
+          <div className="text-white text-center  md:text-start w-11/12 mx-auto md:w-[45%] lg:w-[55%] mt-10 md:mt-32 lg:mt-[267px]">
             <h1 className="text-5xl font-laila font-bold mb-3">Pet’s day care</h1>
             <p className="font-normal text-base mb-10 md:mb-0">
               A petstick pet day care offers a safe, fun place where pets get
