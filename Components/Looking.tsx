@@ -11,28 +11,56 @@ const Looking = () => {
             </div>
 
              <div className='sm:grid sm:grid-cols-2 md:grid-cols-4 gap-10  justify-center w-3/5 mx-auto sm:mx-0 sm:w-full '>
-                <div className='bg-[#FADDD4] rounded-full relative mb-10 sm:mb-0'>
+                <div className='mb-10 sm:mb-0'>
+                <div className='bg-[#FADDD4] rounded-full relative '>
                     <Image src={'/cat-leg-center.png'} alt='cat-leg' width={100} height={100} className='p-5 w-full'/>
                     <Image src={'/image20.png'} alt='image20' width={100} height={100} className='p-8 w-full absolute top-0 left-0'/>
 
                 </div>
+                <div className=' text-center mt-5'>
+                <h3 className=' text-2xl font-laila font-bold'>Find Puppies</h3>
+                <p className=' text-base font-normal'>Find responsibly bred purebred
+                Bully puppies.</p>
+                </div>
+                </div>
                 
-                <div className='bg-[#FADDD4] rounded-full relative mb-10 sm:mb-0'>
+                <div className='mb-10 sm:mb-0'>
+                <div className='bg-[#FADDD4] rounded-full relative '>
                     <Image src={'/cat-leg-center.png'} alt='cat-leg' width={100} height={100} className='p-5 w-full'/>
                     <Image src={'/image22.png'} alt='image22' width={100} height={100} className='p-8 w-full absolute top-0 left-0'/>
 
                 </div>
+                <div className=' text-center mt-5'>
+                <h3 className=' text-2xl font-laila font-bold'>Find groomers</h3>
+                <p className=' text-base font-normal'>Find responsibly bred purebred
+                Bully puppies.</p>
+                </div>
+                </div>
                 
-                <div className='bg-[#FADDD4] rounded-full relative mb-10 sm:mb-0'>
+               <div className='mb-10 sm:mb-0'>
+               <div className='bg-[#FADDD4] rounded-full relative '>
                     <Image src={'/cat-leg-center.png'} alt='cat-leg' width={100} height={100} className='p-5 w-full'/>
                     <Image src={'/image24.png'} alt='image24' width={100} height={100} className='p-8 w-full absolute top-0 left-0'/>
 
                 </div>
+                <div className=' text-center mt-5'>
+                <h3 className=' text-2xl font-laila font-bold'>Find trainer</h3>
+                <p className=' text-base font-normal'>Find responsibly bred purebred
+                Bully puppies.</p>
+                </div>
+               </div>
                 
-                <div className='bg-[#FADDD4] rounded-full relative mb-10 sm:mb-0'>
+                <div className='mb-10 sm:mb-0'>
+                <div className='bg-[#FADDD4] rounded-full relative '>
                     <Image src={'/cat-leg-center.png'} alt='cat-leg' width={100} height={100} className='p-5 w-full'/>
                     <Image src={'/image27.png'} alt='image27' width={100} height={100} className='p-8 w-full absolute top-0 left-0'/>
 
+                </div>
+                <div className=' text-center mt-5'>
+                <h3 className=' text-2xl font-laila font-bold'>Find vet doctor</h3>
+                <p className=' text-base font-normal'>Find responsibly bred purebred
+                Bully puppies.</p>
+                </div>
                 </div>
                 
                 
