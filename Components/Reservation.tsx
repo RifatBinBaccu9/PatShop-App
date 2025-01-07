@@ -3,7 +3,7 @@ import React from 'react'
 const Reservation = () => {
   return (
     <div>
-        <div className="w-full sm:w-11/12 lg:w-[80%] mx-auto mt-20 relative">
+        <div className="w-full sm:w-11/12 lg:w-10/12 mx-auto mt-20 relative">
       <div
         className="bg-cover bg-center h-[700px] md:h-[550px] lg:h-[700px] rounded-xl"
         style={{ backgroundImage: "url('/image1.png')" }}
