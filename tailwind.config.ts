@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        noto: ['"Noto Sans"', "sans-serif"],
+        laila: ['"Laila"', "serif"]
+      },
     },
   },
   plugins: [],
