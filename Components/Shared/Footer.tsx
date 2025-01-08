@@ -60,7 +60,7 @@ const Footer = () => {
          </div>
         </div>
       </div>
-      <img src="/dog-image.png" alt="" className=" absolute bottom-16 sm:bottom-[350px] md:bottom-[400px] lg:bottom-0 right-10 md:right-[100px] lg:left-0 w-1/3 md:w-[20%] lg:w-[14%]"/>
+      <img src="/Dog-image33.png" alt="" className=" absolute bottom-16 sm:bottom-[350px] md:bottom-[400px] lg:bottom-0 right-10 md:right-[100px] lg:left-0 w-1/3 md:w-[20%] lg:w-[14%]"/>
     </div>
   )
 }
