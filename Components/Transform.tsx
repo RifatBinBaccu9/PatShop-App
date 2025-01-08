@@ -3,7 +3,7 @@ import React from 'react'
 const Transform = () => {
   return (
     <div>
-        <div className='h-[500px] sm:h-[400px] relative bg-cover bg-no-repeat' style={{backgroundImage: 'url("/bg22.png")'}}>
+        <div className='w-full h-[500px] sm:h-[400px] relative bg-cover bg-no-repeat' style={{backgroundImage: 'url("/bg22.png")'}}>
           <div className='bg-black opacity-50 inset-0 absolute'></div>
           <div className='text-white w-11/12 sm:w-10/12 lg:w-3/5 mx-auto pt-20'>
 
