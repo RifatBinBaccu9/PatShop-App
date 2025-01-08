@@ -1,4 +1,5 @@
 import About from "@/Components/About";
+import Articles from "@/Components/Articles";
 import Breeds from "@/Components/Breeds";
 import Hero from "@/Components/Hero";
 import Looking from "@/Components/Looking";
@@ -23,6 +24,7 @@ export default function Home() {
     <ShopPeat />
     <Team />
     <Transform />
+    <Articles />
    </div>
   );
 }
