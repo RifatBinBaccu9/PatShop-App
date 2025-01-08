@@ -3,7 +3,7 @@ import React from 'react'
 
 const ShopPeat = () => {
   return (
-    <div>
+    <div className=' relative'>
         <div className='w-10/12 mx-auto'>
             <h1 className='text-5xl font-laila font-bold'>Shop by Peat</h1>
 
@@ -35,6 +35,10 @@ const ShopPeat = () => {
               
                
             </div>
+        </div>
+        
+        <div>
+            <Image src={'/Isolation_Mode.png'} alt='imageleg' width={100} height={100} className=' absolute -top-14 right-0'/>
         </div>
     </div>
   )
