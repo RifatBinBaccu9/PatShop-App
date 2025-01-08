@@ -1,7 +1,4 @@
 import Image from 'next/image'
-import { FaStar } from "react-icons/fa";
-import { FaRegHeart } from "react-icons/fa6";
-import { BsFolder2Open } from "react-icons/bs";
 
 const Breeds = () => {
   return (

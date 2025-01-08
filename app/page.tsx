@@ -5,6 +5,7 @@ import Looking from "@/Components/Looking";
 import Reservation from "@/Components/Reservation";
 import Selling from "@/Components/Selling";
 import Services from "@/Components/Services";
+import Team from "@/Components/Team";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <Selling />
     <Looking />
     <Breeds />
+    <Team />
    </div>
   );
 }
