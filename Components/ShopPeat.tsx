@@ -4,7 +4,7 @@ import React from 'react'
 const ShopPeat = () => {
   return (
     <div className=' relative'>
-        <div className='w-10/12 mx-auto'>
+        <div className='w-10/12 mx-auto my-20'>
             <h1 className='text-5xl font-laila font-bold'>Shop by Peat</h1>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 mt-14'>

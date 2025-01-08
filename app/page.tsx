@@ -2,6 +2,7 @@ import About from "@/Components/About";
 import Articles from "@/Components/Articles";
 import Breeds from "@/Components/Breeds";
 import Customer from "@/Components/Customer";
+import HealthServices from "@/Components/HealthServices";
 import Hero from "@/Components/Hero";
 import Looking from "@/Components/Looking";
 import Reservation from "@/Components/Reservation";
@@ -23,6 +24,7 @@ export default function Home() {
     <Looking />
     <Breeds />
     <ShopPeat />
+    <HealthServices />
     <Team />
     <Customer />
     <Transform />
