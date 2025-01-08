@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const Team = () => {
   return (
-    <div>
-        <div className=' relative'>
+    <div className="relative">
+        <div className='bg-[#FFE6E4] pb-10 '>
                 <div className=' w-9/12 md:w-10/12 mx-auto my-20'>
                 <h1 className=' text-3xl sm:text-5xl font-laila font-bold text-center pt-10'>Our Team</h1>
                    <p className='pt-4 pb-10 text-lg font-medium w-full sm:w-3/5 lg:w-[45%] mx-auto text-center'>Meet our dedicated team, passionate about providing
@@ -45,7 +45,7 @@ const Team = () => {
                 </div>
         
                 <div>
-                    <Image src={'/Isolation_Mode.png'} alt='' width={100} height={100} className=' absolute top-0 right-0'/>
+                    <Image src={'/Isolation_Mode66.png'} alt='' width={100} height={100} className=' absolute top-0 right-0'/>
                 </div>
             </div>
   )

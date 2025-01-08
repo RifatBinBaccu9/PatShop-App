@@ -6,6 +6,7 @@ import Reservation from "@/Components/Reservation";
 import Selling from "@/Components/Selling";
 import Services from "@/Components/Services";
 import Team from "@/Components/Team";
+import Transform from "@/Components/Transform";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
     <Looking />
     <Breeds />
     <Team />
+    <Transform />
    </div>
   );
 }
