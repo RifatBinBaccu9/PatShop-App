@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
-import { Lora} from "next/font/google";
 import "./globals.css";
 
 import Footer from "@/Components/Shared/Footer";
 import Navbar from "@/Components/Shared/Navbar";
-
-const lora = Lora({
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "PatShop App",
@@ -20,13 +15,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${lora.className} antialiased`}
+        className={`antialiased`}
       >
         <Navbar />
-        <hr />
-        <main>
+        <hr className="border border-[#D9D9D9]"/>
+        <main className=" bg-white text-black">
            {children}
         </main>
         <Footer />

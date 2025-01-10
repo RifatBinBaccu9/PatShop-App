@@ -1,6 +1,6 @@
-import type { Config } from "tailwindcss";
+const withMT = require("@material-tailwind/react/utils/withMT");
 
-export default {
+module.exports = withMT({
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,10 +13,11 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
+        laila: ['"Laila"', "serif"],
         noto: ['"Noto Sans"', "sans-serif"],
-        laila: ['"Laila"', "serif"]
+        lora: ['"Lora", serif'],
       },
     },
   },
   plugins: [],
-} satisfies Config;
+});
