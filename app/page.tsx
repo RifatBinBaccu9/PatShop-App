@@ -17,7 +17,7 @@ export default function Home() {
   return (
    <div>
      <Hero />
-     {/* <Reservation /> */}
+     <Reservation />
     {/* <About />
     <Services />
     <Selling />

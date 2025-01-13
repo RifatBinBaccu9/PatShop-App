@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import { FaArrowDownLong } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -28,9 +28,11 @@ const Hero = () => {
         <Image src={'/Isolation_Mode66.png'} alt="Isolation_Moder" width={100} height={100} className="w-[200px] absolute -top-[70px] right-0"/>
         <Image src={'/cat-leg-right-white.png'} alt="Isolation_Moder" width={100} height={100} className="w-[200px] absolute bottom-96 left-0"/>
       </div>
+         
+         <div className="bg-[#FFFFFF] absolute -bottom-8 left-[50%] p-4 sm:p-6 rounded-full shadow-md">
+           <FaArrowDownLong className="text-base sm:text-xl text-[#FF6F3F]"/>
+         </div>
       </div>
-
-      
 
     </div>
   )
