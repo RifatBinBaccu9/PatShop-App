@@ -1,13 +1,14 @@
+import Image from "next/image"
 
 
 const Hero = () => {
   return (
     <div>
-      <div  className="flex items-center justify-center bg-cover bg-center h-[988px] rounded-xl"
+      <div  className=" relative w-full flex items-center justify-center bg-cover bg-center h-[988px] rounded-xl"
         style={{ backgroundImage: "url('/bg-removebg-preview.png')" }}>
 
        <div className="">
-        <div className="container flex justify-between items-center mx-auto gap-[106px]">
+        <div className=" flex justify-between items-center mx-auto gap-[106px]">
         <div className="w-[703px] ">
            <h1 className="font-bold text-[64px] font-laila mb-6">Established & Trusted Pet Care Service</h1>
            <p className="font-normal text-base  font-lora mb-12">At PetStick, we offer trusted and professional pet care solutions specializing in grooming,
@@ -21,6 +22,11 @@ const Hero = () => {
           <img src="/pat-image.png" alt="" className=" absolute top-5 left-0 w-[610px] h-[624px]"/>
         </div>
         </div>
+      </div>
+
+      <div>
+        <Image src={'/cat-leg-right-white.png'} alt="Isolation_Moder" width={100} height={100} className="w-[10%] absolute top-0 right-0"/>
+        <Image src={'/cat-leg-right-white.png'} alt="Isolation_Moder" width={100} height={100} className="w-[10%] absolute bottom-96 left-0"/>
       </div>
       </div>
 
