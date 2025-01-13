@@ -16,7 +16,7 @@ import Transform from "@/Components/Transform";
 export default function Home() {
   return (
    <div>
-     {/* <Hero /> */}
+     <Hero />
      {/* <Reservation /> */}
     {/* <About />
     <Services />
