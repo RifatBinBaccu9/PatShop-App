@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className=' relative  mt-[120px]  bg-white text-black'>
+    <div className=' relative  mt-[120px] pb-[50px] bg-white text-black'>
      <div  className='pat-container'>
      <div className=' text-center'>
       <h1 className='text-5xl font-bold font-laila mb-6'>Features Categories</h1>

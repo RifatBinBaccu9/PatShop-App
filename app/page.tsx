@@ -18,9 +18,9 @@ export default function Home() {
    <div>
      <Hero />
      <About />
-     {/* <Reservation /> */}
-    {/* 
-    <Services />
+     <Services />
+     {/*
+    <Reservation /> 
     <Selling />
     <Looking />
     <Breeds />
@@ -28,8 +28,9 @@ export default function Home() {
     <HealthServices />
     <Team />
     <Customer />
-    <Transform />*/}
-    {/* <Articles />  */}
+    <Transform />
+    <Articles />  
+    */}
    </div>
   );
 }
