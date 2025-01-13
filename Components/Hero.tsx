@@ -3,7 +3,7 @@ import { FaArrowDownLong } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="bg-white text-black">
       <div  className=" relative w-full flex items-center justify-center bg-cover bg-center h-[550px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[988px]"
         style={{ backgroundImage: "url('/bg-removebg-preview.png')" }}>
 

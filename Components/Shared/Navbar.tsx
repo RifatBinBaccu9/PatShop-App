@@ -9,7 +9,7 @@ import { IoMenu } from "react-icons/io5";
 const Navbar = () => {
   return (
     <div className="bg-[#FFE6E4] text-black">
-     <div className="pat-container mx-auto flex justify-between py-8">
+     <div className="pat-container flex justify-between py-8">
      <div className="flex items-center gap-x-3">
         <Image src={"/cat-leg.png"} alt="cat-leg" width={26} height={26} className="w-10 h-10"/>
         <h1 className="text-[28px] font-laila font-bold text-[#FF6F3F]">PetStick</h1>

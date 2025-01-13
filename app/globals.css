@@ -12,5 +12,5 @@
   font-family: "Lora", serif;
 }
 .pat-container{
-  @apply max-w-[1320px] px-3 2xl:px-0
+  @apply max-w-[1320px] px-3 2xl:px-0 mx-auto
 }
