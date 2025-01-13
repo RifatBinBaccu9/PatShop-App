@@ -12,7 +12,7 @@ const Navbar = () => {
      <div className="w-11/12 sm:container mx-auto flex justify-between py-8">
      <div className="flex items-center gap-x-3">
         <Image src={"/cat-leg.png"} alt="cat-leg" width={26} height={26} className="w-10 h-10"/>
-        <h1 className="text-3xl fontLaila font-bold text-[#FF6F3F]">PetStick</h1>
+        <h1 className="text-[28px] font-laila font-bold text-[#FF6F3F]">PetStick</h1>
        </div>
         
         <div className="hidden lg:flex items-center ">
@@ -26,7 +26,7 @@ const Navbar = () => {
             </ul>
         </div>
 
-        <div className=" xl:flex items-center gap-x-16 hidden">
+        <div className=" xl:flex items-center gap-16 hidden">
             <div className="flex gap-x-3 text-2xl">
             <FiHeart />
             <FiShoppingCart />
