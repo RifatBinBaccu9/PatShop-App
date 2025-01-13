@@ -13,29 +13,31 @@ const About = () => {
      <div className=''>
       <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 justify-items-center gap-14 2xl:gap-20 text-center mt-10'>
 
-        <div className=''>
+        <div className='w-[200px] mx-auto'>
           <div className=' bg-[#FADDD4] w-[200px] rounded-full relative overflow-hidden'>
           <Image src={'/cat-leg-center.png'} alt='cat-leg-center' width={32} height={32} className='w-full p-4 '/>
           
           <Image src={'/beautiful-pet-portrait-dog2.png'} alt='beautiful-per-portrait' width={100} height={100} className='w-full h-[200px] absolute top-0 left-0 p-6'/>
 
           </div>
-          <p className='text-lg font-bold font-noto mt-7'>German Breed </p>
+          <p className='text-lg font-bold font-noto mt-7'>German Breed
+          Alsatian  Puppies </p>
         </div>
 
 
-        <div className='  '>
+        <div className='w-[200px] mx-auto'>
           <div className='bg-[#FADDD4] w-[200px] rounded-full relative overflow-hidden'>
           <Image src={'/cat-leg-center.png'} alt='cat-leg-center' width={32} height={32} className='w-full p-4 '/>
           
           <Image src={'/image10.png'} alt='beautiful-per-portrait' width={100} height={100} className='w-full h-[200px] absolute top-0 left-0 p-6'/>
 
           </div>
-          <p className=' text-lg font-bold font-noto mt-7'>Leaving bed</p>
+          <p className=' text-lg font-bold font-noto mt-7'>Leaving bed
+          for Puppies</p>
         </div>
 
 
-        <div className='  '>
+        <div className='w-[200px] mx-auto'>
           <div className='bg-[#FADDD4] w-[200px] rounded-full relative overflow-hidden'>
           <Image src={'/cat-leg-center.png'} alt='cat-leg-center' width={32} height={32} className='w-full p-4 '/>
           
@@ -46,7 +48,7 @@ const About = () => {
         </div>
 
 
-        <div className='  '>
+        <div className='w-[200px] mx-auto'>
           <div className='bg-[#FADDD4] w-[200px] rounded-full relative overflow-hidden'>
           <Image src={'/cat-leg-center.png'} alt='cat-leg-center' width={32} height={32} className='w-full p-4 '/>
           
@@ -57,7 +59,7 @@ const About = () => {
         </div>
 
 
-        <div className='  '>
+        <div className='w-[200px] mx-auto'>
           <div className='bg-[#FADDD4] w-[200px] rounded-full relative overflow-hidden'>
           <Image src={'/cat-leg-center.png'} alt='cat-leg-center' width={100} height={100} className='w-full p-4 '/>
           
