@@ -2,16 +2,16 @@ import React from 'react'
 
 const Reservation = () => {
   return (
-    <div>
+    <div className='my-[120px]'>
         <div className="pat-container relative">
       <div
-        className="bg-cover bg-center h-[700px] md:h-[550px] lg:h-[700px] rounded-xl"
+        className="bg-cover bg-center h-[744px] rounded-xl"
         style={{ backgroundImage: "url('/image1.png')" }}
       >
-        <div className="absolute bg-black opacity-50 inset-0 rounded-xl"></div>
+        <div className="absolute bg-black opacity-50 inset-0 rounded-[20px]"></div>
 
-        <div className="absolute top-0 flex flex-col-reverse md:flex-row gap-5 p-5">
-          <div className=" w-[98%] sm:w-11/12 justify-center  mx-auto md:justify-start md:w-[55%] lg:w-[45%] flex items-center md:mt-16 lg:mt-[140px]">
+        <div className="">
+          <div className="">
             <div className="bg-white rounded-md p-4 py-8 w-full sm:w-11/12 md:w-auto">
               <h1 className="text-3xl font-bold font-laila text-center">
                 Online reservation
