@@ -6,7 +6,7 @@ const About = () => {
      <div  className='pat-container'>
      <div className=' text-center'>
       <h1 className='text-5xl font-bold font-laila mb-6'>Features Categories</h1>
-      <p className=' text-base font-normal font-lora w-[468px] mx-auto '>At petstick, access pet listings, shop easily, and book grooming,
+      <p className=' text-base font-normal font-lora w-full md:w-[468px] mx-auto '>At petstick, access pet listings, shop easily, and book grooming,
       vet visits, and training all through personalized profiles.</p>
      </div>
 
