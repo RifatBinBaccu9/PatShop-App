@@ -10,7 +10,7 @@ const Reservation = () => {
       >
         <div className="absolute bg-black opacity-50 inset-0 rounded-[20px]"></div>
 
-        <div className="flex w-full justify-between items-center px-10 py-[78px] gap-[65px]">
+        <div className="xl:flex w-full justify-between items-center px-10 py-[78px] gap-[65px]">
           <div className="bg-white opacity-95 rounded-[20px] w-[534px]">
             <div className="">
               <h1 className="text-black text-[28px] font-bold font-laila text-center pt-[60px]">
@@ -92,7 +92,7 @@ const Reservation = () => {
             </div>
           </div>
 
-          <div className="w-[641px] text-white opacity-95">
+          <div className="w-[641px] text-white opacity-95">j
             <h1 className="text-5xl font-laila font-bold mb-6">Pet’s day care</h1>
             <p className="text-lg font-lora font-semibold">
               A petstick pet day care offers a safe, fun place where pets get
