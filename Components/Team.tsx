@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Team = () => {
   return (
     <div className="relative">
-        <div className='bg-[#FFE6E4] pt-[60px] '>
+        <div className='bg-[#FFE6E4] text-black pt-[60px] '>
                 <div className='pat-container'>
                 <h1 className=' text-4xl sm:text-5xl font-laila font-bold text-center'>Our Team</h1>
                    <p className='text-base font-lora w-full sm:w-[397px] mx-auto text-center mt-6 mb-[56px]'>Meet our dedicated team, passionate about providing

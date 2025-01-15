@@ -40,7 +40,7 @@ export default function RootLayout({
         <main className=" bg-white text-black">
            {children}
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

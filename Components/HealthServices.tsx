@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const HealthServices = () => {
   return (
-    <div className="mb-[172px] mt-[120px]">
+    <div className=" bg-white text-black mb-[172px] mt-[120px]">
         <div className='pat-container 2xl:flex gap-6'>
             <div className="w-full 2xl:w-[495px] mt-[40px]">
                <h1 className='text-3xl sm:text-5xl font-laila font-bold'>Health and Wellness Services</h1>

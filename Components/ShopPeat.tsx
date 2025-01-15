@@ -3,7 +3,7 @@ import React from 'react'
 
 const ShopPeat = () => {
   return (
-    <div className=' relative'>
+    <div className=' bg-white text-black relative'>
         <div className='pat-container my-[120px]'>
             <h1 className='text-4xl sm:text-5xl font-laila font-bold text-center sm:text-start'>Shop by Peat</h1>
 

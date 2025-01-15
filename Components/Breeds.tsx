@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Breeds = () => {
   return (
     <div>
-       <div className=' '>
+       <div className=' bg-white text-black '>
                <div className='pat-container mt-[120px] mb-40'>
                    <h1 className=' text-4xl sm:text-5xl font-laila font-bold text-center '>Explore Breeds</h1>
                    <p className='text-base font-normal font-lora w-full md:w-[682px] mx-auto text-center mt-6 mb-14'>Designed so animals can relax & indulge in pet stylists, run around our exercise yards, make new friends in doggy daycare, or simply spend hours in our dog grooming salon.</p>

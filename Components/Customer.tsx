@@ -4,7 +4,7 @@ import { FaStar } from "react-icons/fa";
 
 const Customer = () => {
   return (
-    <div className="relative">
+    <div className=" bg-white text-black relative">
         <div className="pat-container my-[120px]">
             <div className="w-full sm:w-[581px]  text-center sm:text-start">
                 <h1 className='text-4xl sm:text-5xl font-laila font-bold mb-3'>Some Good Word’ From Customer</h1>

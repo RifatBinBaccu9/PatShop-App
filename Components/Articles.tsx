@@ -4,7 +4,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 
 const Articles = () => {
   return (
-    <div className=''>
+    <div className=' bg-white text-black'>
         <div className='pat-container my-20'>
             <h1 className=' text-2xl sm:text-5xl font-laila font-bold text-center'>Latest Post & Articles</h1>
 
