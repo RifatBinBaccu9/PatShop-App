@@ -23,9 +23,9 @@ export default function Home() {
      <Selling />
      <Looking />
      <Breeds />
+     <ShopPeat />
+     <HealthServices />
      {/*
-    <ShopPeat />
-    <HealthServices />
     <Team />
     <Customer />
     <Transform />

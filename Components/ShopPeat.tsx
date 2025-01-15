@@ -4,41 +4,41 @@ import React from 'react'
 const ShopPeat = () => {
   return (
     <div className=' relative'>
-        <div className='w-10/12 mx-auto my-20'>
-            <h1 className='text-5xl font-laila font-bold'>Shop by Peat</h1>
+        <div className='pat-container my-[120px]'>
+            <h1 className='text-4xl sm:text-5xl font-laila font-bold text-center sm:text-start'>Shop by Peat</h1>
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 mt-14'>
+            <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 gap-[46px] mt-14'>
                <div>
-                <Image src={'/pats1.png'} alt='pats' width={100} height={100} className='w-full'/>
-                <h3 className='text-2xl font-bold font-laila text-center pt-5'>Dog</h3>
+                <Image src={'/pats1.png'} alt='pats' width={100} height={100} className='w-[182px] h-[148px]'/>
+                <h3 className='text-[28px] font-bold font-laila text-center pt-6'>Dog</h3>
                </div>
                <div>
-                <Image src={'/pats2.png'} alt='pats' width={100} height={100} className='w-full'/>
-                <h3 className='text-2xl font-bold font-laila text-center pt-5'>Cat</h3>
+                <Image src={'/pats2.png'} alt='pats' width={100} height={100} className='w-[182px] h-[148px]'/>
+                <h3 className='text-[28px] font-bold font-laila text-center pt-6'>Cat</h3>
                </div>
                <div>
-                <Image src={'/pats3.png'} alt='pats' width={100} height={100} className='w-full'/>
-                <h3 className='text-2xl font-bold font-laila text-center pt-5'>Birds</h3>
+                <Image src={'/pats3.png'} alt='pats' width={100} height={100} className='w-[182px] h-[148px]'/>
+                <h3 className='text-[28px] font-bold font-laila text-center pt-6'>Birds</h3>
                </div>
                <div>
-                <Image src={'/pats4.png'} alt='pats' width={100} height={100} className='w-full'/>
-                <h3 className='text-2xl font-bold font-laila text-center pt-5'>Rabbit</h3>
+                <Image src={'/pats4.png'} alt='pats' width={100} height={100} className='w-[182px] h-[148px]'/>
+                <h3 className='text-[28px] font-bold font-laila text-center pt-6'>Rabbit</h3>
                </div>
                <div>
-                <Image src={'/pats5.png'} alt='pats' width={100} height={100} className='w-full'/>
-                <h3 className='text-2xl font-bold font-laila text-center pt-5'>Fish</h3>
+                <Image src={'/pats5.png'} alt='pats' width={100} height={100} className='w-[182px] h-[148px]'/>
+                <h3 className='text-[28px] font-bold font-laila text-center pt-6'>Fish</h3>
                </div>
                <div>
-                <Image src={'/pats6.png'} alt='pats' width={100} height={100} className='w-full'/>
-                <h3 className='text-2xl font-bold font-laila text-center pt-5'>Tortoise</h3>
+                <Image src={'/pats6.png'} alt='pats' width={100} height={100} className='w-[182px] h-[148px]'/>
+                <h3 className='text-[28px] font-bold font-laila text-center pt-6'>Tortoise</h3>
                </div>
               
                
             </div>
         </div>
         
-        <div>
-            <Image src={'/Isolation_Mode.png'} alt='imageleg' width={100} height={100} className=' absolute -top-14 right-0'/>
+        <div className='hidden lg:block'>
+            <Image src={'/Isolation_Mode.png'} alt='imageleg' width={100} height={100} className='w-[200px] absolute -top-40 right-0'/>
         </div>
     </div>
   )
