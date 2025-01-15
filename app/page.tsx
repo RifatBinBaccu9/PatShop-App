@@ -25,8 +25,8 @@ export default function Home() {
      <Breeds />
      <ShopPeat />
      <HealthServices />
+     <Team />
      {/*
-    <Team />
     <Customer />
     <Transform />
     <Articles />  

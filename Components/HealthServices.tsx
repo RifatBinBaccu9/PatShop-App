@@ -38,7 +38,7 @@ const HealthServices = () => {
                </div>
             </div>
 
-            <div className="w-full 2xl:w-[800px] flex justify-center items-center pt-32 2xl:mt-0">
+            <div className="w-full 2xl:w-[800px] flex justify-center items-center mt-32 2xl:mt-0">
             <div>
 
             <div className="flex justify-center relative mb-[86px] ">
