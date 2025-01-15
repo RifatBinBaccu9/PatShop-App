@@ -27,8 +27,8 @@ export default function Home() {
      <HealthServices />
      <Team />
      <Customer />
+     <Transform />
      {/*
-    <Transform />
     <Articles />  
     */}
    </div>
