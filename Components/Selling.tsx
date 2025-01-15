@@ -5,7 +5,7 @@ import { BsFolder2Open } from "react-icons/bs";
 
 const Selling = () => {
   return (
-    <div className=' relative'>
+    <div className=' relative bg-white text-black'>
         <div className='pat-container'>
             <h1 className='text-3xl sm:text-4xl md:text-5xl font-laila font-bold text-center mb-[56px]'>Our Best Selling Product</h1>
            
