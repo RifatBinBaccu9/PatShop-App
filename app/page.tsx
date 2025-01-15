@@ -20,8 +20,8 @@ export default function Home() {
      <About />
      <Services />
      <Reservation /> 
+     <Selling />
      {/*
-    <Selling />
     <Looking />
     <Breeds />
     <ShopPeat />

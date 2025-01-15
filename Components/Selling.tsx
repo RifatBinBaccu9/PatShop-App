@@ -6,96 +6,100 @@ import { BsFolder2Open } from "react-icons/bs";
 const Selling = () => {
   return (
     <div className=' relative'>
-        <div className=' w-9/12 md:w-10/12 mx-auto my-20'>
-            <h1 className=' text-3xl sm:text-5xl font-laila font-bold text-center py-10'>Our Best Selling Product</h1>
+        <div className='pat-container'>
+            <h1 className='text-3xl sm:text-4xl md:text-5xl font-laila font-bold text-center mb-[56px]'>Our Best Selling Product</h1>
            
-           <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4'>
-             <div className=' border rounded-md p-3'>
+           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[38px] xl:gap-4 2xl:gap-[38px] mb-[50px]'>
+             <div className=' border border-[#D9D9D9] rounded-md p-[14px]'>
                 <Image src={'/image.png'} alt='image' width={100} height={100} className='w-full'/>
-                <div className='flex justify-between text-lg font-medium mt-2'>
-                    <h4>Pedigree adult complete nutrition</h4>
-                    <div className='flex gap-1'>
-                    <FaStar className='mt-0.5 text-[#FFC000]'/>
+                <div className='flex justify-between mt-[14px]'>
+                    <h4 className='text-lg font-lora font-medium '>Pedigree Adult Complete Nutrition</h4>
+                    <div className='flex text-lg font-noto font-medium gap-2'>
+                    <FaStar className='mt-[3px] text-[#FFC000]'/>
                     <span className='text-[#FF6F3F]'>4.5</span>
                     </div>
                 </div>
-                <p className='py-2'>Food</p>
+                <p className='text-base font-lora font-medium mt-2 mb-3'>Food</p>
                 <div className='flex justify-between'>
-                    <span className='text-[#FF6F3F]'>$120.00</span>
-                    <span className='flex gap-4'>
-                    <BsFolder2Open className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
-                    <FaRegHeart className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
+                    <span className='text-[#FF6F3F] text-lg font-lora font-medium'>$120.00</span>
+                    <span className='flex gap-[10px]'>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><BsFolder2Open className=' text-[24px]'/></div>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><FaRegHeart className=' text-[24px]'/></div>
+                    
                     </span>
                 </div>
              </div>
              
-             <div className=' border rounded-md  p-3'>
+             <div className=' border border-[#D9D9D9] rounded-md  p-[14px]'>
                 <Image src={'/image(2).png'} alt='image' width={100} height={100} className='w-full'/>
                 <div className='flex justify-between text-lg font-medium mt-2'>
-                    <h4>Pedigree adult complete nutrition</h4>
-                    <div className='flex gap-1'>
-                    <FaStar className='mt-0.5 text-[#FFC000]'/>
+                <h4 className='text-lg font-lora font-medium'>Pedigree Adult Complete Nutrition</h4>
+                <div className='flex text-lg font-noto font-medium gap-2'>
+                    <FaStar className='mt-[3px] text-[#FFC000]'/>
                     <span className='text-[#FF6F3F]'>4.5</span>
                     </div>
                 </div>
-                <p className='py-2'>Food</p>
+                <p className='text-base font-lora font-medium mt-2 mb-3'>Food</p>
                 <div className='flex justify-between'>
-                    <span className='text-[#FF6F3F]'>$120.00</span>
-                    <span className='flex gap-4'>
-                    <BsFolder2Open className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
-                    <FaRegHeart className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
+                    <span className='text-[#FF6F3F] text-lg font-lora font-medium'>$120.00</span>
+                    <span className='flex gap-[10px]'>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><BsFolder2Open className=' text-[24px]'/></div>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><FaRegHeart className=' text-[24px]'/></div>
+                    
                     </span>
                 </div>
              </div>
              
-             <div className=' border rounded-md  p-3'>
+             <div className=' border border-[#D9D9D9]  rounded-md  p-[14px]'>
                 <Image src={'/image(3).png'} alt='image' width={100} height={100} className='w-full'/>
                 <div className='flex justify-between text-lg font-medium mt-2'>
-                    <h4>Pedigree adult complete nutrition</h4>
-                    <div className='flex gap-1'>
-                    <FaStar className='mt-0.5 text-[#FFC000]'/>
+                <h4 className='text-lg font-lora font-medium '>Pedigree Adult Complete Nutrition</h4>
+                <div className='flex text-lg font-noto font-medium gap-2'>
+                    <FaStar className='mt-[3px] text-[#FFC000]'/>
                     <span className='text-[#FF6F3F]'>4.5</span>
                     </div>
                 </div>
-                <p className='py-2'>Food</p>
+                <p className='text-base font-lora font-medium mt-2 mb-3'>Food</p>
                 <div className='flex justify-between'>
-                    <span className='text-[#FF6F3F]'>$120.00</span>
-                    <span className='flex gap-4'>
-                    <BsFolder2Open className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
-                    <FaRegHeart className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
+                    <span className='text-[#FF6F3F] text-lg font-lora font-medium'>$120.00</span>
+                    <span className='flex gap-[10px]'>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><BsFolder2Open className=' text-[24px]'/></div>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><FaRegHeart className=' text-[24px]'/></div>
+                    
                     </span>
                 </div>
              </div>
              
-             <div className=' border rounded-md  p-3'>
+             <div className=' border border-[#D9D9D9]  rounded-md  p-[14px]'>
                 <Image src={'/image(4).png'} alt='image' width={100} height={100} className='w-full'/>
                 <div className='flex justify-between text-lg font-medium mt-2'>
-                    <h4>Pedigree adult complete nutrition</h4>
-                    <div className='flex gap-1'>
-                    <FaStar className='mt-0.5 text-[#FFC000]'/>
+                <h4 className='text-lg font-lora font-medium '>Pedigree Adult Complete Nutrition</h4>
+                <div className='flex text-lg font-noto font-medium gap-2'>
+                    <FaStar className='mt-[3px] text-[#FFC000]'/>
                     <span className='text-[#FF6F3F]'>4.5</span>
                     </div>
                 </div>
-                <p className='py-2'>Food</p>
+                <p className='text-base font-lora font-medium mt-2 mb-3'>Food</p>
                 <div className='flex justify-between'>
-                    <span className='text-[#FF6F3F]'>$120.00</span>
-                    <span className='flex gap-4'>
-                    <BsFolder2Open className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
-                    <FaRegHeart className='bg-[#FFE6E4] rounded-full p-2 text-3xl'/>
+                    <span className='text-[#FF6F3F] text-lg font-lora font-medium'>$120.00</span>
+                    <span className='flex gap-[10px]'>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><BsFolder2Open className=' text-[24px]'/></div>
+                    <div className='bg-[#F8D9CC] text-black rounded-full p-2'><FaRegHeart className=' text-[24px]'/></div>
+                    
                     </span>
                 </div>
              </div>
-             
-            
-             
 
+           </div>
 
+           <div className='text-center mb-[122px]'>
+            <button className='text-lg font-lora font-semibold px-8 py-4 border border-[#FF6F3F] text-[#FF6F3F] rounded-[40px]'>See More</button>
            </div>
         </div>
 
-        <div>
-            <Image src={'/Isolation_Mode.png'} alt='' width={100} height={100} className=' absolute top-0 right-0'/>
-            <Image src={'/Isolation_Moder.png'} alt='' width={100} height={100} className=' absolute bottom-0 left-0'/>
+        <div className='hidden 2xl:block'>
+            <Image src={'/Isolation_Mode.png'} alt='' width={100} height={100} className='w-[200px] absolute -top-[130px] right-0'/>
+            <Image src={'/Isolation_Moder.png'} alt='' width={100} height={100} className='w-[200px] absolute bottom-[100px] left-0'/>
         </div>
     </div>
   )
