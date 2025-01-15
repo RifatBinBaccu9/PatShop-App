@@ -28,8 +28,8 @@ export default function Home() {
      <Team />
      <Customer />
      <Transform />
+     <Articles />  
      {/*
-    <Articles />  
     */}
    </div>
   );
