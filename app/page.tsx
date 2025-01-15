@@ -26,8 +26,8 @@ export default function Home() {
      <ShopPeat />
      <HealthServices />
      <Team />
+     <Customer />
      {/*
-    <Customer />
     <Transform />
     <Articles />  
     */}

@@ -5,14 +5,14 @@ import { FaStar } from "react-icons/fa";
 const Customer = () => {
   return (
     <div className="relative">
-        <div className="w-10/12 mx-auto my-20">
-            <div className="mb-10 w-11/12 sm:w-10/12 lg:w-1/2">
-                <h1 className='text-3xl sm:text-5xl font-laila font-bold mb-3'>Some Good Word’ From Customer</h1>
-                <p className='text-base font-medium'>Here's what our happy customers are saying about Petstick – trusted by pet
+        <div className="pat-container my-[120px]">
+            <div className="w-full sm:w-[581px]  text-center sm:text-start">
+                <h1 className='text-4xl sm:text-5xl font-laila font-bold mb-3'>Some Good Word’ From Customer</h1>
+                <p className='text-base font-normal mt-6 mb-14'>Here's what our happy customers are saying about Petstick – trusted by pet
                 owners for quality, safety, and endless fun!</p>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
                 <div>
                     <div className=" shadow-md border rounded-md p-5">
                     <div className="flex gap-2">
@@ -88,8 +88,8 @@ const Customer = () => {
 
             </div>
         </div>
-        <div>
-          <Image src={'/Isolation_Moder.png'} alt='imageing' width={100} height={100} className='absolute bottom-0 left-0'/>
+        <div className="hidden 2xl:block">
+          <Image src={'/Isolation_Moder.png'} alt='imageing' width={100} height={100} className='-[200px] absolute bottom-0 left-0'/>
         </div>
     </div>
   )
